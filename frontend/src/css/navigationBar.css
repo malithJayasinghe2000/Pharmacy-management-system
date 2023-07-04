@@ -1,0 +1,53 @@
+/* navigation bar */
+
+.navbar {
+    background-color: #0687ff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    margin-right: 3%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0655a0;
+    text-decoration: none;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 24px;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #343a40;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+
+  .navbar-logo{
+    height: 6vh;
+    border-radius: 10px;
+    margin-right: 10%;
+  }
+.navbar-expand-lg{
+    background-image: url('D:\ITP project\frontend\src\images\navigateBar.jpeg');
+
+}
+
+  

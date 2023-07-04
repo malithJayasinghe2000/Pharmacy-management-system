@@ -1,0 +1,40 @@
+/* CSS for SupplierAccount component */
+
+
+#supplier-account {
+    display: grid;
+    /* background-image: url(../images/background.jpeg); */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  #supplier-account-head {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #addnew-products-btn,
+  #view-products-btn,
+  #view-orders-btn {
+    display: block;
+    
+    width: 100%;
+    padding: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border: none;
+    border-radius: 4px;
+    background-color: #4492e6cd;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #addnew-products-btn:hover,
+  #view-products-btn:hover
+   {
+    background-color: #0056b3;
+  }
+  

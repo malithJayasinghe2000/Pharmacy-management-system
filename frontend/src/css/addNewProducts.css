@@ -1,0 +1,57 @@
+#add-product-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    background-color: #f2f2f2a2;
+    border-radius: 10px;
+  }
+  
+  #add-product-form-head {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  #add-product-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #product-name,
+  #product-price,
+  #select-medicine,
+  #description-text {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  #add-product-form-submit {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #add-product-form-submit:hover {
+    background-color: #0b7dda;
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 480px) {
+    #add-product-form {
+      width: 90%;
+    }
+  }
+  

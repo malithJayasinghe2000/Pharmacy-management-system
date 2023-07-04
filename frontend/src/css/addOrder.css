@@ -1,0 +1,50 @@
+#add-order-form {
+    
+    max-width: 1000px;
+  margin:100px auto;
+  padding: 20px;
+  background-color: #f2f2f2b6;
+  border-radius: 40px;
+  }
+  
+  #add-order-form div {
+    margin-bottom: 10px;
+  }
+
+  #add-order-head{
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+      }
+  
+  #add-order-form label {
+    font-weight: bold;
+  }
+  
+  #add-order-form input,
+  #add-order-form select {
+    width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  }
+  
+  #add-order-form button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* #add-order-form button:hover {
+    background-color: #45a049;
+  } */
+  
+  #add-order-form button[type="submit"] {
+    background-color: #2196f3;
+  }
+  

@@ -1,0 +1,55 @@
+/* CSS for OrderDetails component */
+
+
+  
+  .view-decline-reason {
+    margin-top: 10px;
+  }
+  
+  .decline-reason {
+    margin-bottom: 10px;
+  }
+
+  #order-list-for-supplier thead{
+    border: black;
+  }
+#orders-head{
+  font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+  #order-list-for-supplier{
+    
+    font-weight: 500;
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background-color: #86bffc95;
+  }
+  #accept-order {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #2196f3;
+  }
+
+  #decline-order{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f44336;
+  }

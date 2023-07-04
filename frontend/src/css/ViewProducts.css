@@ -1,0 +1,66 @@
+#view-products {
+    margin-top: 20px;
+  }
+  
+  #view-products-head {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  #view-product-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background-color: #86bffc95;
+  }
+  
+  #view-product-table th,
+  #view-product-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #view-product-table th {
+    font-weight: bold;
+  }
+  
+  #view-product-table td input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #view-product-table td button {
+    margin-right: 5px;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #view-product-table td button#view-product-save-btn {
+    background-color: #008CBA;
+  }
+  
+  #view-product-table td button#view-product-cancel-btn {
+    background-color: #f44336;
+  }
+  
+  #view-product-table td button#view-product-update-btn {
+    background-color: #008CBA;
+  }
+  
+  #view-product-table td button#view-product-delete-btn {
+    background-color: #f44336;
+  }
+  
+  #view-product-table td button:hover {
+    opacity: 0.8;
+  }
+  

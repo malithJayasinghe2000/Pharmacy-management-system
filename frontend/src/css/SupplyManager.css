@@ -1,0 +1,47 @@
+#supply-manager-account {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #supply-manager-account-head {
+    text-align: center;
+    /* background-color: #61abf972; */
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #view-req-btn,
+  #view-regSup-btn,
+  #add-orders-btn,
+  #view-order-btn,
+  #view-declineRes-btn {
+    display: block;
+    
+    width: 100%;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border: none;
+    border-radius: 42px;
+    background-color: #4492e6cd;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #view-req-btn:hover,
+  #view-regSup-btn:hover,
+  #add-orders-btn:hover,
+  #view-order-btn:hover,
+  #view-declineRes-btn:hover {
+    background-color: #0056b3;
+  }
+  

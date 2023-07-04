@@ -1,0 +1,37 @@
+#declined-reason-div {
+    margin-top: 20px;
+  }
+  
+  #declined-reason-head {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  #declined-reason-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background-color: #86bffc95;
+    background-image: url(../images/navigateBar.jpeg);
+  }
+  
+  #declined-reason-table th
+  #declined-reason-table td {
+    
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #declined-reason-table th {
+    background-image: url(../images/navigateBar.jpeg);
+    font-weight: bold;
+  }
+  
+  #declined-reason-table td:last-child {
+    text-align: center;
+  }
+  

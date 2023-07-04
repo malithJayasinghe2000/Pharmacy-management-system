@@ -1,0 +1,55 @@
+/* #supplier-requests {
+    margin: 20px auto;
+    max-width: 800px;
+  } */
+  
+  #supplier-requests-head {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #supplier-req-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background-color: #86bffc95;
+    background-image: url(../images/navigateBar.jpeg);
+  }
+  
+  #supplier-req-table-head th {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* #supplier-req-table-body td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  } */
+  
+  #supplier-req-table-body td button {
+    /* background-color: #4CAF50; */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  #supplier-req-table-body td button#accept-request {
+    background-color: #008CBA;
+  }
+  
+  #supplier-req-table-body td button#decline-request {
+    background-color: #f44336;
+  }
+  

@@ -1,0 +1,66 @@
+#supplier-login {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 10%;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#supplier-login-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#supplier-login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#supplier-login-form div {
+  margin-bottom: 15px;
+}
+
+#supplier-login-form label {
+  font-weight: bold;
+}
+
+#supplier-login-form input[type="email"],
+#supplier-login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#supplier-login-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#supplier-regSup-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#supplier-login-form a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+}
+
+#supplier-login-form a:hover {
+  text-decoration: underline;
+}

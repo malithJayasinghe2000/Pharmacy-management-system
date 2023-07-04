@@ -1,0 +1,70 @@
+#view-registered-supplier-search{
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #0077be;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#search-container {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#search-container input[type="text"] {
+  padding: 10px;
+  border: blue;
+  border-radius: 5px 0 0 5px;
+  width: 70%;
+  font-size: 16px;
+  margin-left: 10%;
+}
+
+#search-container input[type="text"]:hover{
+  background-color: #a3b0b7e9;
+} 
+
+/* .search-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+} */
+
+#view-registered-supplier-search:hover {
+  background-color: #005ea8;
+}
+
+
+#view-registered-supplier-remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#view-registered-supplier-remove-button:hover {
+  background-color: #c82333;
+}
+
+#view-registered-supplier-table{
+  width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background-color: #86bffc95;
+    background-image: url(../images/navigateBar.jpeg);
+}
+#view-registered-supplier-head{
+  text-align: center;
+}

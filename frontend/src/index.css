@@ -1,0 +1,55 @@
+body {
+    background-image: url('./images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    margin: 0; /* Remove default body margin */
+    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  /* table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background-color: #86bffc95;
+    
+  } */
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* button {
+    padding: 8px 16px;
+    border: none;
+    font-style: normal;
+    
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  } */

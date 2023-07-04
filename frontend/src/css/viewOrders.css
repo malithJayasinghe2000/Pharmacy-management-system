@@ -1,0 +1,106 @@
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #view-orders {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background-color: #86bffc95;
+    background-image: url(../images/navigateBar.jpeg);
+  }
+  
+  #view-orders th{
+    padding: px;
+    
+    background-image: url(../images/navigateBar.jpeg);
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    border-bottom-width: 2px;
+  }
+  #view-orders td {
+    padding: px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #view-orders td:last-child {
+    text-align: center;
+  }
+  
+  #makeOrders {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  #makeOrders:hover {
+    background-color: #0c87e8;
+  }
+  
+  #filtered-supplier {
+    margin-top: 20px;
+    
+  }
+  
+  #filtered-supplier-head {
+    border-radius: 100%;
+    background-color: #ffffff8e;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  #filtered-supplier-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background-color: #86bffcb2;
+    
+  }
+  
+  #filtered-supplier-table th
+  {
+    padding: px;
+    
+    background-image: url(../images/navigateBar.jpeg);
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    border-bottom-width: 2px;
+  }
+  #filtered-supplier-table td {
+    padding: 8px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #filtered-supplier-table td:last-child {
+    text-align: center;
+  }
+  
+  #send-order-button {
+    background-color: #0c87e8;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  #send-order-button:hover {
+    background-color: #3c9a40;
+  }
+  
+  #view-orders-head{
+    border-radius: 50%;
+   
+    text-align: center;
+  }
